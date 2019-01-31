@@ -5,11 +5,11 @@ public class ProyectoVO {
     private String actividades;
     private int integrantes;
 
-    public ProyectoVO(String n, String a, int i) {
+    public ProyectoVO(String nombre, String actividades, int integrantes) {
         super();
-        this.nombre = n;
-        this.actividades = a;
-        this.integrantes = i;
+        this.nombre = nombre;
+        this.actividades = actividades;
+        this.integrantes = integrantes;
     }
 
     public void setNombre(String nombre) {
