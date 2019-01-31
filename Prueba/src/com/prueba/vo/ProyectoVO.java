@@ -4,6 +4,8 @@ public class ProyectoVO {
     private String nombre;
     private String actividades;
     private int integrantes;
+    
+    private String variable;
 
 
     public ProyectoVO(String nom, String act, int inte) {
@@ -35,6 +37,15 @@ public class ProyectoVO {
 
     public int getIntegrantes() {
         return integrantes;
+    }
+
+
+    public void setVariable(String variable) {
+        this.variable = variable;
+    }
+
+    public String getVariable() {
+        return variable;
     }
 
 }
