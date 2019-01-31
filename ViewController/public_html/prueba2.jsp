@@ -29,13 +29,18 @@
                 </tr>
                 <tr>
                     <td>Julio Cesar</td>
-                    <td>Geronimo Elizondo</td>
+                    <td>Jeronimo Elizondo</td>
                     <td>25</td>
                 </tr>
                 <tr>
                     <td>Edwin Eduardo Javier</td>
                     <td>Toledo Mejia</td>
                     <td>27</td>
+                </tr>
+                <tr>
+                    <td>Usuario prueba</td>
+                    <td>para Git</td>
+                    <td>3</td>
                 </tr>
             </tbody>
         </table>
