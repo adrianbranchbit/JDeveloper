@@ -5,11 +5,19 @@ public class ProyectoVO {
     private String actividades;
     private int integrantes;
 
+<<<<<<< HEAD
     public ProyectoVO(String nom, String act, int inte) {
         super();
         this.nombre = nom;
         this.actividades = act;
         this.integrantes = inte;
+=======
+    public ProyectoVO(String nombre, String actividades, int integrantes) {
+        super();
+        this.nombre = nombre;
+        this.actividades = actividades;
+        this.integrantes = integrantes;
+>>>>>>> add66c3f9c18364a0f3e401688bc3fb5b525b78c
     }
 
     public void setNombre(String nombre) {
