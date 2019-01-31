@@ -35,4 +35,9 @@ public class EquipoVO {
     public String getSexo() {
         return sexo;
     }
+    
+    @Override
+    public String toString(){
+        return nombre+" tiene"+edad;
+    }
 }
