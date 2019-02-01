@@ -38,6 +38,8 @@ public class PruebaSer extends HttpServlet {
             System.out.println(equipo.getEdad());
             System.out.println(equipo.getSexo());
             
+            System.out.println(equipo.toString());
+            
             session.setAttribute("equipo", equipo);
             response.sendRedirect(request.getContextPath()+"/prueba2.jsp");
         }catch(Exception e){
