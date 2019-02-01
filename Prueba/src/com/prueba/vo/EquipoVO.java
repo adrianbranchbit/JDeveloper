@@ -2,7 +2,7 @@ package com.prueba.vo;
 
 public class EquipoVO {
     /** Esta clase define objetos que contienen atributos especificos de un Equipo
-     * @author Adrian
+     * @author Branchbit
      * @since 29/01/19
      * @version 1.0
      */
