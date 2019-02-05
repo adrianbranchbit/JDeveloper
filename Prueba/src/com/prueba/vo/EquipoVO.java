@@ -1,8 +1,8 @@
 package com.prueba.vo;
 
 public class EquipoVO {
-    /** Esta clase define objetos que contienen atributos especificos de un Equipo
-     * @author Adrian
+    /** <h1>Esta clase define objetos que contienen atributos especificos de un Equipo</h1>
+     * @author Branchbit
      * @since 29/01/19
      * @version 1.0
      */
@@ -11,7 +11,7 @@ public class EquipoVO {
     private String sexo;
 
 
-    /** Inicializamos las variables en el construtor 
+    /** <p style="color:#FF0000";>Inicializamos las variables en el construtor</p>
      */
     public EquipoVO() {
         super();
@@ -20,7 +20,8 @@ public class EquipoVO {
         sexo="";
     }
     
-    /** Asignamos un valor a la propiedad Nombre
+    /** <p alig="left">Asignamos un valor a la
+     * propiedad Nombre</p>
      * @param nombre nuevo valor para asignar a nombre
      * */
     public void setNombre(String nombre) {
