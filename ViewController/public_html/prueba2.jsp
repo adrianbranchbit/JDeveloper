@@ -28,9 +28,9 @@
                     <td><%=equipo.getSexo()%></td>
                 </tr>
                 <tr>
-                    <td>Julio Cesar</td>
-                    <td>Jeronimo Elizondo</td>
+                    <td>Jeronimo</td>
                     <td>25</td>
+                    <td>Masculino</td>
                 </tr>
                 <tr>
                     <td>Edwin Eduardo Javier</td>
@@ -49,6 +49,8 @@
                 </tr>
             </tbody>
         </table>
+        <label>Nombre del archivo: <strong><%= equipo.getNombreArchivo()%></strong> </label>
+        <textarea class="form-control"><%=equipo.getBase64() %></textarea>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
 </html>

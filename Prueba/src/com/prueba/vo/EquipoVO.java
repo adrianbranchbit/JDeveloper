@@ -9,6 +9,26 @@ public class EquipoVO {
     private String nombre;
     private String edad;
     private String sexo;
+    private String base64;
+    private String nombreArchivo;
+
+
+    public void setNombreArchivo(String nombreArchivo) {
+        this.nombreArchivo = nombreArchivo;
+    }
+
+    public String getNombreArchivo() {
+        return nombreArchivo;
+    }
+
+    public void setBase64(String base64) {
+        this.base64 = base64;
+    }
+
+    public String getBase64() {
+        return base64;
+    }
+ 
 
 
     /** <p style="color:#FF0000";>Inicializamos las variables en el construtor</p>
@@ -18,6 +38,7 @@ public class EquipoVO {
         nombre="";
         edad="";
         sexo="";
+        base64="";
     }
     
     /** <p alig="left">Asignamos un valor a la
